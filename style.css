@@ -79,6 +79,7 @@ button{
     background-image:url("./IMAGE\ \(19\).png");
     background-repeat: no-repeat;
     width: 100%;
+    background-size: 100%;
     padding-bottom: 100px;
 
 }
@@ -217,6 +218,7 @@ h2 b{
     position: absolute;
     background-color: #2BCA8B;
     left: 54%;
+    color: white;
     margin-top: 42px;
 }
 
@@ -224,6 +226,16 @@ h2 b{
     position:relative;
     margin-top: 40px;
     margin-right: 100px;
+}
+
+.box{
+    position: absolute;
+    left: 63%;
+    bottom: -30%;
+}
+
+.our{
+    position: relative;
 }
 
 @media(max-width:1160px){
