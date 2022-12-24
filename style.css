@@ -238,6 +238,143 @@ h2 b{
     position: relative;
 }
 
+.blog_1{
+    color: black;
+    margin-left: 100px;
+    font-size: 50px;
+}
+
+.blog_1 b{
+    color:  #F55F39;
+    border-bottom: 2px solid  #F55F39;
+    
+}
+
+.blog_small_box{
+    width: 400px;
+    padding-bottom: 20px;
+    /* border: 0.5px solid wheat; */
+}
+
+.blog_small_box h3{
+    padding-top: 20px;
+    color: #252061;
+    font-size: 30px;
+    
+}
+
+.blog_small_box1 p{
+    margin-left: 10px;
+}
+
+.blog_small_box .blog_small_text{
+    padding-top: 10px;
+    color: #969696;
+    padding-bottom: 10px;
+}
+
+.blog_box1{
+    position: relative;
+    margin-bottom: 110px;
+    vertical-align: top;
+}
+
+.blog_small_box{
+    position:absolute;
+    top: 70%;
+    background-color: white;
+}
+
+.blog_img1{
+    padding: 15px 0;
+}
+
+.blog_small_box1{
+    display: flex;
+    align-items: center;
+    
+}
+
+.blog_small_box1 img{
+  width: 50px;
+  height: 50px;
+}
+
+.blog_small_img{
+    position: relative;
+}
+.small2{
+    position: absolute;
+    top: 88%;
+    background-color: white;
+}
+
+.small2 h6{
+ color:  #929292;
+ padding-top: 15px;
+}
+
+.blog_boxs .blog_box2 .blog_img1{
+    width: 430px;
+    height: 290px;
+}
+
+.blog_boxs .blog_box2 .blog_img2{
+    width: 430px;
+    height: 290px;
+}
+
+.blog{
+    margin-top: 100px;
+}
+
+.blog_boxs{
+    margin-right: 40px;
+    margin-top: 75px;
+    vertical-align: top;
+}
+
+
+.blog_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+
+.visit{
+    
+    background-color: #252061;
+    width: 430px;
+    padding-bottom: 40px;
+    margin-top: 100px;
+    
+}
+
+.visit h2{
+    color: white;
+    font-size: 30px;
+    padding-left: 45px;
+    padding-top: 35px;
+}
+
+.visit .visit_text{
+color: white;
+padding: 20px 45px;
+
+}
+
+.visit a{
+    color: #F55F39;
+    padding-left: 45px;
+}
+
+
+.small2{
+    width: 300px;
+    border: 0.5px solid gray;
+}
+
 @media(max-width:1160px){
     .container{
         width: 1040px;
