@@ -658,6 +658,9 @@ padding: 20px 45px;
    margin-top: 30px;
 }
 
+
+
+
 @media(max-width:1160px){
     .container{
         width: 1040px;
@@ -671,7 +674,7 @@ padding: 20px 45px;
     }
 
     .boxs{
-        padding: 0 80px;
+       width: 100%;
     }
 
     .head_img{
@@ -706,6 +709,10 @@ padding: 20px 45px;
 @media(max-width:860px){
     .container{
         width: 740px;
+    }
+
+    .boxs{
+        width: 100%;
     }
 
     .head_link{
