@@ -375,6 +375,288 @@ padding: 20px 45px;
     border: 0.5px solid gray;
 }
 
+.get{
+    background-color: #252061;
+    background-size: 100%;
+    margin-top: 500px;
+    height: 1000px ;
+}
+/* .get .container h2{
+    color: white;
+    margin-bottom: 100px;
+} */
+
+.get .container .boxs{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.boxs .month{
+    width: 350px;
+    height: 450px;
+    background-color: white;
+}
+
+.month_list{
+    display: block;
+}
+
+.month_item{
+ display: flex;
+ align-items: center;
+}
+
+.month_item img{
+    height: 15px;
+    width: 15px;
+}
+
+.month a{
+    padding-top: 30px;
+    font-size: 22px;
+    padding-left: 60px;
+}
+
+.month h2{
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 50px;
+}
+.month .month_list{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.month_item{
+    padding: 5px 0;
+}
+
+.month .month_links{
+ padding: 15px 20px;
+ background-color:#2BCA8B;
+ margin-left: 60px;
+ margin-top: 20px;
+ color: white;
+}
+
+.month .month_matn{
+    margin-left: 60px;
+    margin-top: 10px;
+    color:  #9DA0AC;
+    
+}
+
+
+.boxs .year{
+    width: 350px;
+    height: 500px;
+    background-color: white;
+}
+
+.year_list{
+    display: block;
+}
+
+.year_item{
+ display: flex;
+ align-items: center;
+}
+
+.year_item img{
+    height: 15px;
+    width: 15px;
+}
+
+.year a{
+    padding-top: 40px;
+    font-size: 22px;
+    padding-left: 60px;
+}
+
+.year h2{
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 50px;
+}
+.year .year_list{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.year_item{
+    padding: 5px 0;
+}
+
+.year .year_links{
+ padding: 15px 20px;
+ background-color:#2BCA8B;
+ margin-left: 60px;
+ margin-top: 30px;
+ color: white;
+}
+
+.year .year_matn{
+    margin-left: 60px;
+    margin-top: 20px;
+    color:  #9DA0AC;
+    
+}
+
+
+.boxs .day{
+    width: 350px;
+    height: 450px;
+    background-color: white;
+}
+
+.day_list{
+    display: block;
+}
+
+.day_item{
+ display: flex;
+ align-items: center;
+}
+
+.day_item img{
+    height: 15px;
+    width: 15px;
+}
+
+.day a{
+    padding-top: 30px;
+    font-size: 22px;
+    padding-left: 60px;
+}
+
+.day h2{
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 50px;
+}
+.day .day_list{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.day_item{
+    padding: 5px 0;
+}
+
+.day .day_links{
+ padding: 15px 20px;
+ background-color:#2BCA8B;
+ margin-left: 60px;
+ margin-top: 20px;
+ color: white;
+}
+
+.day .day_matn{
+    margin-left: 60px;
+    margin-top: 10px;
+    color:  #9DA0AC;
+    
+}
+
+
+
+.boxs{
+    margin-top: 100px;
+}
+
+.acc{
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+}
+
+.acc h4{
+ color: white;
+ 
+}
+
+.acc p{
+    border: 2px solid white;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin: 10px 10px;
+}
+.small_text{
+    color: white;
+
+}
+
+.smalll_boxs{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 90px;
+    
+}
+
+.smalll_boxs .small_link{
+    color: white;
+    padding-left: 60px;
+}
+
+.photo{
+    position: relative;
+}
+
+.photo .photo_img{
+    width: 800px;
+    height: 600px;
+}
+
+.photo_box{
+    width: 400px; 
+    height: 350px;
+    position: absolute;
+    background-color: #252061;
+    top: 30%;
+    left: 4%;
+}
+
+.photo_text{
+    color: white;
+    font-size: 30px;
+    padding: 20px 25px;
+}
+
+.photo_box h6{
+    color: white;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+.get_text{
+    color: white;
+    padding-top: 180px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.photo{
+    position: absolute;
+    top: -40%;
+    left: 10%;
+}
+
+.get .container{
+    position: relative;
+}
+
+.photo_small_text{
+    border: 1px solid black;
+   width: 250px;
+   margin-left: 20px;
+   text-align: center;
+   padding: 10px 0;
+   background-color: #2BCA8B;
+   color: white;
+   margin-top: 30px;
+}
+
 @media(max-width:1160px){
     .container{
         width: 1040px;
