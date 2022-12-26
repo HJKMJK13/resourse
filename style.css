@@ -658,8 +658,102 @@ padding: 20px 45px;
    margin-top: 30px;
 }
 
+.say_box{
+    display: flex;
+    align-items: center;
+}
 
+.say{
+    position: relative;
+}
 
+.say_small_box{
+    width: 350px;
+    height: 350px;
+    border: 1px solid wheat;
+    position: absolute;
+    top: 45%;
+    background-color: white;
+    left: -15%;
+    
+
+}
+
+.say_small_box h5{
+color: #524B9A;
+margin-top: 20px;
+margin-left: 30px;
+font-size: 20px;
+}
+
+.say_text{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.say_small_box h6{
+    color: #524B9A;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.kind{
+    background-color: #F0F0F0;
+    margin-top: 100px;
+    display: block;
+}
+
+.kind{
+    width: 800px;
+    height: 600px;
+    margin-bottom: 150px;
+}
+
+.kind_item hr{
+    margin-left: 40px;
+    width: 500px;
+
+}
+
+.kind_item h2{
+    padding: 20px 40px;
+    font-size: 28px;
+}
+
+.kind_item p{
+    padding: 20px 20px;
+}
+
+.kind_item h6{
+    padding-bottom: 10px;
+    margin-left: 40px;
+}
+
+.kind_item .kind_link{
+    margin-left: 40px;
+    padding-bottom: 10px;
+    color: #4163AC;
+    
+}
+
+.kind_small_link{
+ margin-top: 30px;
+ margin-left: 40px;
+ color:  #F55F39;
+ font-size: 14px;
+  
+}
+
+.kind_item h6{
+    font-size: 15px;
+}
+
+.kind_item .kind_text1{
+    font-size: 20px;
+    color: #524B9A;
+    margin-left: 20px;
+    
+}
 
 @media(max-width:1160px){
     .container{
