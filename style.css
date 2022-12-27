@@ -938,6 +938,11 @@ font-size: 20px;
     justify-content: space-around;
 }
 
+footer{
+    background-color: #252061;
+    background-size: 100%;
+}
+
 @media(max-width:1160px){
     .container{
         width: 1040px;
